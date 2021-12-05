@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Product</title>
+    <!-- <link rel="stylesheet" href="/dp.css"> -->
+    <link rel="stylesheet" href="/portfolio/portfolio.css">
+    <link rel="stylesheet" href="/services/services/style.css">
+    <link rel="stylesheet" href="/footer/footer.css">
+    <link rel="stylesheet" href="/about/about.css">
+    <script src="/portfolio/portfolio.js"></script>
+    <script src="https://kit.fontawesome.com/0c73b367ff.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/dp logo/digital prodcuts logo design.png" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+    
+    <!-- here start top navbar code  -->
+    <div class="topnav">
+        <tr class="topnavtext">
+            <a href=""> <i id="text" class="fas fa-phone-volume">&nbsp; +92 335 3644648</i></a>
+        </tr>
+        <tr class="topnavtext">
+
+            <a href=""><i id="text" class="fas fa-envelope-open-text "> &nbsp; asiffaizan721@gmail.com</i></a>
+
+        </tr>
+
+
+    </div>
+
+
+    <!-- here end top navbar code  -->
+
+
+    <!-- here start navbar code  -->
+
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+
+            window.addEventListener('scroll', function () {
+
+                if (window.scrollY > 50) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-#FFF">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img width="90px" src="/dp logo/digital prodcuts logo design.png"
+                    alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link " id="navlink"  aria-current="page"
+                        href="/index.html">Home</a>
+                    <a class="nav-link" id="navlink" href="/services/services/index.html">Services</a>
+                    <a class="nav-link" id="navlink"  style="color: blue;" href="/portfolio/portfolio.html">Portfolio</a>
+                    <a class="nav-link" id="navlink" href="/offer/offer.html">Offers</a>
+                    <a class="nav-link" id="navlink" href="/offer/offer.html">Latest News</a>
+                    <a class="nav-link" id="navlink" href="/offer/offer.html">Free Courses</a>
+                    <a class="nav-link" id="navlink" href="/about/aboutus.html">About Us </a>
+                    <a class="nav-link" id="navlink" href="/contact/index.html">Contact us</a>
+                    <a href="/contact/index.html"> <button id="navbarbtn">GET A QUOTE</button></a>
+                   
+                                       
+
+<div class="row" >
+    <div class="col">
+      <button  id="cartbtn" type="button" style="border-radius: 10px  ;"  data-toggle="modal" data-target="#cart">Cart  (<span class="total-count"></span>)
+      
+      <button id="clearcart" class="clear-cart" style="background-color: red; border-radius: 10px; ">  Clear Cart</button></div>
+  </div>
+                    
+                  </div>
+                  
+              </div>
+          </div>
+    </nav>
+
+    <!-- here start portfolio code  -->
+  
+    <!-- our best portfolio text animation start  -->
+
+    <h1 class="ml6">
+  <span class="text-wrapper">
+    <span class="letters">Our Best Portfolio</span>
+  </span>
+</h1>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- our best portfolio text animation end  -->
+<script>
+    var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+
+<br>
+
+<!-- here start our best services card code  -->
+<div class="ourbestservices">
+
+<div class="card" style="width:25rem; height: 26.5rem; border-style: none;background-color: white; box-shadow: 3px 0px 30px 3px rgb(66, 195, 255);">
+  <img  src="/icon/WEB DEV AD IN SEP.jpg" class="card-img-top" alt="...">
+  <div class="card-body" style="border-style: 2px solid blue;">
+    <h3>Website Development</h3>
+    <p>Let us develop and design any custom website for your business.</p>
+   
+      
+     <center>
+    <a href="https://www.facebook.com/DProducts2021/?ref=pages_you_manage"> <button class="buttonportfolio">
+        Check Portfolio
+      </button></a> 
+    </center>
+  </div>
+</div>
+
+<div class="card" style="width: 25rem; height: 26.5rem; border-style: none;background-color: white; box-shadow: 5px 0px 20px 5px rgb(66, 195, 255);">
+  <img src="/portfolio/graphic designing ads for multimedia.jpg" class="card-img-top" alt="...">
+  
+  <div class="card-body" style="border-style: 2px solid blue;">
+  <h3>Graphic Desining </h3>
+  <p>Design your posters, brochures, logos, and other digital stuff with our graphic team leaders for your business and social media marketing.</p>
+ 
+    
+     
+  <center>
+    <a href="https://www.facebook.com/DProduct2021/"> <button class="buttonportfolio">
+        Check Portfolio
+      </button></a> 
+    </center>
+</div>
+</div>
+
+<div class="card" style="width: 25rem;height: 26.5rem; border-style: none;background-color: white; box-shadow: 5px 0px 20px 5px rgb(66, 195, 255);">
+  <img src="/icon/ui ux new post design.jpg" class="card-img-top" alt="...">
+  <div class="card-body" style="border-style: 2px solid blue;">
+    <h3>UI UX  Desining </h3>
+    <p>We Are Here To Design Your Custom Website Or Mobile Application UI UX Design </p>
+   
+       
+    <center>
+        <a href="https://www.facebook.com/DProducts2021/?ref=pages_you_manage"> <button class="buttonportfolio">
+            Check Portfolio
+          </button></a> 
+        </center>
+  </div>
+
+</div>
+</div>
+ <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/61aa4d15c82c976b71bf858f/1fm0jq8dm';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+<!-- The content of your page would go here. -->
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+  <img src="/dp logo/dp logo in white.png">
+        <!-- <h3>About<span>Digital Product</span></h3> -->
+  
+        <p class="footer-links">
+            <a href="/index.html">Home</a>
+            |
+            <a href="/services/services/index.html">Services</a>
+            |
+            <a href="/portfolio/portfolio.html">Portfolio</a>
+            |
+            <a href="/freecourse/freecourse.html">Free Courses</a>
+            |
+            <a href="/about/aboutus.html">About us </a>
+            |
+            <a href="/contact/index.html">Contact us </a>
+        </p>
+  
+        <p class="footer-company-name" style="color: white;"> ©2021 | Digiatl Product  </p>
+    </div>
+  
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span>Karachi Pakistan</p>
+        </div>
+  
+        <div>
+            <i class="fa fa-phone"></i>
+            <p >+92 335 36 44648</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a style="color: white;" href="#">Digitalproduct786@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about" style="color: white;">
+            <span>About the company</span>
+  We Are Here To Provide You Graphic Designing / Website Development / UI UX Designing Also Social Media Promotion Services..</p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/DProduct2021"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/FaizanA54313054"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/faizan-sheikh-183092218/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/watch?v=5N1qSC_py54&t=6s"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+    <p class="footer-company-name" style="color: white; text-align: center;font-size: 15px;">Copyright ©2021 All rights reserved | This Website is Develop by Faizan : Hasnain : Mahnoor : Ghulam Nabi  </p>
+  </footer>
+  
+  <!-- footer code end from here -->
+
+</body>
+
+</html>
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <title>Hello, world!</title> -->
+</head>
+
+<body>
+    <!-- <h1>Hello, world!</h1> -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

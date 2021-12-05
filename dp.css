@@ -1,0 +1,347 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    
+}
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Roboto:wght@400;900&display=swap')
+}
+
+h1{
+  background-color: rgb(17, 100, 235);
+  color: white;
+padding: 20px;
+font-size: 30px;
+font-family: 'Fruktur', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+/* scroll bar css code  */
+
+/* start here css for top navbar  */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Roboto&display=swap');
+.topnav{
+
+
+    background: rgb(14, 125, 230);
+    width: 100%;
+    height: 50px;
+
+}
+#text{
+    color: white;
+    font-size: 18px;
+    float: right;
+    padding: 12px;
+    
+    
+}
+@media only screen and (max-width: 400px) {
+    #text{
+        font-size: 13px;
+        float: left;
+        
+    }
+  }
+  /* end here css for top navbar  */
+
+
+  /* start here css for navbar  */
+
+  
+  .nav-link{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 750;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+#navlink{
+    text-align: center;
+    color: black;
+    justify-content: space-evenly;
+    width:16vh;
+    white-space: nowrap;
+  
+}
+.nav-link:hover{
+    border-bottom:5px solid darkblue ;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+#navbarbtn{
+    border-style: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbarbtn:hover{
+    background: darkblue;
+    color: white;
+    font: 500;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+#navbarbtnsignin{
+    border-style: none;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#navbarbtncart{
+    border-style: none;
+    background-color: rgb(7, 201, 207);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#navbarbtncart:hover{
+    background: black;
+    color: white;
+    font: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+#navbarbtnsignin:hover{
+    background: red;
+    color: white;
+    font: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+#navbar_top{
+    background: white;
+    box-shadow: 10px 5px 20px blue ;
+}
+/* here start our best services css  */
+
+.ourbestservices{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* here is card btn css  */
+/* 
+button {
+  text-align: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+} */
+/* 
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+} */
+h3{
+  text-align: center;
+}
+.headingourbestservices{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Fruktur', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+/* here end css our bets services  */
+
+
+/* here start css our client slider  */
+
+
+/* here end our client slider css */
+
+
+h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.btnviewmore{
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* text animation css start  */
+
+.ml4 {
+    position: relative;
+    font-weight: 700;
+    font-size: 3em;
+    font-family: 'Fruktur', cursive;
+font-family: 'Roboto', sans-serif;
+
+  }
+  .ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0; 
+  }
+
+  /* text animation css end  */

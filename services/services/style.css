@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+body {
+  padding-top: 80px;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+/* .card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+} */
+
+.star i{
+  color: orange;
+}
+.card-text{
+color: black;
+  font-size: 22px;
+  font-style: 800px;
+  font-family: 'Fruktur', cursive;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+span{
+  font-family: 'Fruktur', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+.card-title{
+  color: blue;
+}
+.ServicesBtn{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  
+}
+
+
+body{
+  padding: 0%;
+  margin: 0%;
+  
+}
+*{
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Roboto:wght@400;900&display=swap')
+}
+
+h1{
+background-color: rgb(17, 100, 235);
+color: white;
+padding: 20px;
+font-size: 30px;
+font-family: 'Fruktur', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+/* scroll bar css code  */
+
+/* start here css for top navbar  */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Roboto&display=swap');
+.topnav{
+
+
+  background: rgb(14, 125, 230);
+  width: 100%;
+  height: 50px;
+
+}
+#text{
+  color: white;
+  font-size: 18px;
+  float: right;
+  padding: 12px;
+  
+  
+}
+@media only screen and (max-width: 400px) {
+  #text{
+      font-size: 13px;
+      float: left;
+      
+  }
+}
+/* end here css for top navbar  */
+
+
+/* start here css for navbar  */
+
+
+.nav-link{
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 750;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+#navlink{
+  text-align: center;
+  color: black;
+  justify-content: space-evenly;
+  width:16vh;
+  white-space: nowrap;
+
+}
+.nav-link:hover{
+  border-bottom:5px solid darkblue ;
+  
+}
+
+body{
+  overflow-x: hidden;
+}
+#navbarbtn{
+  border-style: none;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbarbtn:hover{
+  background: darkblue;
+  color: white;
+  font: 500;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+}
+#navbarbtnsignin{
+  border-style: none;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#navbarbtncart{
+  border-style: none;
+  background-color: rgb(7, 201, 207);
+  color: white;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#navbarbtncart:hover{
+  background: black;
+  color: white;
+  font: 500;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+}
+#navbarbtnsignin:hover{
+  background: red;
+  color: white;
+  font: 500;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+}
+#navbar_top{
+  background: white;
+  box-shadow: 10px 5px 20px blue ;
+}
+/* here start our best services css  */
+
+.ourbestservices{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#cartbtn{
+  background-color: blue;
+  border-style: none;
+  width: 100px;
+  padding: 8px;
+  color: white;
+  margin-left: 2px;
+  
+
+}
+#clearcart{
+  /* background-color: blue; */
+  border-style: none;
+  width: 100px;
+  padding: 8px;
+  color: white;
+  margin-left: 2px;
+  
+
+}
+#navbarbtn{
+  background-color: blue;
+  border-style: none;
+  width: 130px;
+  padding: 8px;
+  color: white;
+  margin-left: 2px; 
+}
